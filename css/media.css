@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 600px) {
+  body {
+    background: #f5f7fa;
+    padding: 20px;
+    font-family: Montserrat;
+  }
+
+  .main-container {
+    width: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    background: #fff;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  }
+  .sidebar {
+    background: #1e2939;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .my-photo {
+    width: 80px;
+    float: right;
+    margin: 10px;
+    box-shadow: 5px 9px 20px black;
+  }
+  .about-me-container {
+    width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .contacts-container {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    opacity: 0.5;
+  }
+  .contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #fff;
+  }
+  .skills-container {
+    margin-top: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+    color: #ff6b08;
+  }
+  .skills-text {
+    color: #fff;
+  }
+  .profession {
+    display: none;
+  }
+  .name {
+    display: none;
+  }
+  .descripsion-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+  }
+  .info-container {
+    margin-bottom: 65px;
+  }
+  .about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .projects-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+  }
+  .dots {
+    display: none;
+  }
+
+  .projects-item {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 15px;
+  }
+  .projects-container {
+    margin-bottom: 55px;
+  }
+  .projects-technology {
+    display: block;
+  }
+  .profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .profession-company {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ff6b08;
+  }
+  .profession-period {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a8a8a8;
+  }
+  .profession-divider {
+    color: #000;
+  }
+  .profession-duties {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .profession-duties-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 15px;
+  }
+
+  .education-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .education-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #ff6b08;
+  }
+
+  .education-departmernt {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+  .profession-sidebar {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .name-sidebar {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+}
